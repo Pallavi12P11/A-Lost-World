@@ -1,0 +1,162 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+                       
+             body {
+                 font-family: Arial, sans-serif;
+                 background-image: url("Images/wel cont4.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                overflow-y: auto;
+                height: 100vh;
+                }
+
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 1em;
+                text-align: center;
+            }
+
+            header nav ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            header nav li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+
+            header nav a {
+                color: #fff;
+                text-decoration: none;
+            }
+            .brand img{
+                width:60px;
+            }
+            .brand{
+                display:flex;
+                list-style: none;
+                font-weight: bolder;
+                font-size: 1.3rem;
+                margin-top: 5px;
+            }
+            .contact-container {
+                max-width: 800px;
+                margin: 2em auto;
+                padding: 2em;
+                background-color: #f7f7f7;
+                border: 1px solid #ddd;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .faq {
+                margin-bottom: 2em;
+            }
+
+            .faq ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .faq li {
+                margin-bottom: 1em;
+            }
+
+            .faq h3 {
+                font-weight: bold;
+                margin-top: 0;
+            }
+
+            .contact {
+                margin-bottom: 2em;
+            }
+
+            .contact form {
+                margin-top: 1em;
+            }
+
+            .contact label {
+                display: block;
+                margin-bottom: 0.5em;
+            }
+
+            .contact input[type="text"], .contact input[type="email"] {
+                width: 100%;
+                height: 2em;
+                margin-bottom: 1em;
+                padding: 0.5em;
+                border: 1px solid #ccc;
+            }
+
+            .contact textarea {
+                width: 100%;
+                height: 5em;
+                margin-bottom: 1em;
+                padding: 0.5em;
+                border: 1px solid #ccc;
+            }
+
+            .contact input[type="submit"] {
+                background-color: #333;
+                color: #fff;
+                padding: 0.5em 1em;
+                border: none;
+                border-radius: 0.5em;
+                cursor: pointer;
+            }
+
+            .contact input[type="submit"]
+            
+
+            
+        </style>
+    </head>
+    <body>
+         <header>
+            <nav>
+                    <li class="brand">
+                            <img src="Images/image2.jpeg">A Lost World            
+                    </li>
+                   
+                </nav>
+         </header>
+            <main align="center">
+                <section class="contact-container">
+                    <h1>Contact Us</h1>
+                    <p>Our team is always here to help you...</p>
+            <section class="faq">
+                <ul>
+                    <li>
+                        <h3>Email</h3>
+                        <p>Alostworld2225@gmail.com</p>
+                    </li>
+                    <li>
+                        <h3>Q: How do I contact customer support?</h3>
+                        <p>A: You can contact our customer support team by email</p>
+                    </li>
+                </ul>
+            </section>
+                <section class="contact">
+                    <h2>Contact Us</h2>
+                    <form action="Contactus" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name"><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"></textarea><br><br>
+                        <input type="submit" value="Send">
+                    </form>
+                </section>
+            </main>
+    </body>
+</html>

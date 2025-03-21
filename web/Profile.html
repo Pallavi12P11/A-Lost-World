@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style>
+
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-repeat:round;
+                background-size: 100%;
+            }
+
+            .header {
+                background-color:black;
+                color:#fff;
+                padding:0;
+                text-align:right;
+            }
+
+            nav ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            .brand img{
+                width:60px;
+            }
+            .brand{
+                display:flex;
+                list-style: none;
+                font-weight: bolder;
+                font-size: 1.3rem;
+                margin-top: 0px;
+                padding: 5px;
+            }
+
+            nav li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+
+            nav a {
+                color: #fff;
+                text-decoration: none;
+            }
+            .footer
+            {
+                background-color:black;
+                color:#fff;
+                text-align: center;
+                padding:1em;
+                clear: both;
+                width:100%;
+                bottom:0;
+            }
+            h5{
+                margin: 0;
+                padding:0;
+            }
+
+            .multi-column-list li {
+                padding: 8px 12px;
+            }
+
+            .multi-column-list li a {
+                text-decoration: none;
+                color: black;
+                display: block;
+            }
+
+            .multi-column-list li a:hover {
+                background-color: #ddd;
+            }
+            #h3{
+                font:none;
+            }
+
+
+            .button {
+                background-color: #4CAF50;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            .button:hover {
+                background-color: #3e8e41;
+            }
+            .t1{
+                width: 80%;
+                height: 450px;
+                color: lightsteelblue;
+                margin-top: 10px;
+                padding: 0;
+                margin-left: 140px;
+                margin-bottom: 0;
+            }
+            .img1{
+                width: 190px;
+                margin: 29px;
+                border-width: 45px;
+                border-color: lightslategrey;
+            }
+            .img1{
+                width: 150px;
+                margin: 20px;
+                border-width: 45px;
+                border-color: lightslategrey;
+            }
+            .img2{
+                width: 150px;
+                margin: 20px;
+                border-width: 45px;
+                border-color: lightslategrey;
+            }
+            .img3{
+                width: 150px;
+                margin: 20px;
+                border-width: 45px;
+                border-color: lightslategrey;
+            }
+            .img4{
+                width: 150px;
+
+                margin: 20px;
+            }
+            .img5{
+                width: 150px;
+
+                margin: 20px;
+                border-width: 5px solid #000;
+                border-color: lightslategrey;
+            }
+            .b1{
+                margin-right: -20px;
+                margin-left: -100px;
+
+            }
+            .box{
+                background-color: lightskyblue;
+                margin-bottom: 90px;
+                height: 400px;
+
+            }
+            .container{
+                position: absolute;
+                height: 100px;
+                width: 1400px;
+            }
+            .image-overlay{
+                top: 50%;
+                left: 50%;
+                color: black;
+                font-size: 50px;
+                justify-content: center;
+                align-items: center;
+            }
+            .container1{
+                width:70%;
+                margin:40px auto;
+                padding: 15px;
+                border: 5px solid #ccc;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                margin-bottom: 15px;
+            }
+            .container1 a img{
+
+                padding:20px;
+                border-radius: 35px;
+            }
+            .container3{
+                width:80%;
+                margin:40px auto;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            .img6{
+                margin: 77px;
+                border-radius: 10px;
+                border-color:blue;
+                border-width: 90px;
+                padding: 35px;
+            }
+            .img7{
+                margin:65px;
+                border-radius: 10px;
+                border-color:blue;
+                border-width: 90px;
+                padding: 25px;
+                padding-bottom: 50px;
+            }
+            .image-container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 43px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Pacifico',cursive;
+  text-shadow:2px 2px 4px rgba(0,0,0,0.5);
+  font-style: italic;
+      
+      
+}
+ .container2{
+            width:70%;
+            margin:40px auto;
+            padding: 15px;
+            border: 5px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+             margin-bottom: 15px;
+            }
+             .img8{
+            margin: 50px;
+            border-radius: 10px;
+            border-color:blue;
+            border-width: 90px;
+            padding-left: 50px;
+            }
+        </style>
+       
+        <section class="header">
+            <nav>
+                <li class="brand">
+                    <img src="Images/wel logo.jpg">A Lost World            
+                </li>
+                <li><a href="Write.html">Write</a></li>
+                <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </section>
+         <div class="image-container">
+            <img src="Images/wel4.jpg" alt="Image" width="1492" height="400">
+            <div class="text-overlay">Welcome!! I'm excited to share my world with you...</div>
+        </div>
+        <h2>Genre</h2>
+        <div class="container1">
+            <a href="Romance.html">
+                <img src="Images/fict6.jpg" width="180px" height="200px">
+            </a>
+            <a href="fantasy.html">
+                <img src="Images/fict2.jpg" width="180px" height="200px">
+            </a>
+            <a href="fiction.html">
+                <img src="Images/fict1.jpg" width="180px" height="200px">
+            </a>
+            <a href="Mystery.html">
+                <img src="Images/fict4.jpg" width="180px" height="200px">
+            </a>
+            <a href="thrillers.html">
+                <img src="Images/fict3.jpg" width="180px" height="200px">
+            </a>
+            <a href="Horror.html">
+                <img src="Images/fict5.jpg" width="180px" height="200px">
+            </a>
+            <a href="Werewolf.html">
+                <img src="Images/fict8.jpg" width="180px" height="200px">
+            </a>
+            <a href="ShortStory.html">
+                <img src="Images/fict7.jpg" width="180px" height="200px">
+            </a>
+        </div>
+        <h2>Comics</h2>
+            <div class="container2">
+                <a href="pdf/comic1.pdf"><img class="img8" src="Images/comics 2 tiranga.jpg" width="150px" height="200px"></a>
+                <a href="pdf/comic2.pdf"><img class="img8" src="Images/comics cha kidnap.jpg" width="150px" height="200px"></a>
+                <a href="pdf/comic3.pdf"><img class="img8" src="Images/comics 3 raka khel.jpg" width="150px" height="200px"></a>
+                <a href="pdf/comic4.pdf"><img class="img8" src="Images/comics4 superhero.jpg" width="150px" height="200px"></a>
+                <a href="pdf/comic5.pdf"><img class="img8" src="Images/comics 5 spiderman.jpg" width="150px" height="200px"></a>
+                <a href="pdf/comic7.pdf"><img class="img8" src="Images/comics 7.jpg" width="150px" height="200px"></a>
+            </div>
+        <h2>Top picks for you</h2>
+        <div class="container3">
+
+            <a class="b1"align="center" href="pdf/Healing-Her-Heart.pdf"> <img class="img6" src="Images/healing cover.jpeg" width="150px" height="250px">
+            </a>
+            <a class="b1"align="center" href="pdf/Stuck-with-a-Billionaire.pdf"><img class="img6" src="Images/Stuck cover.jpeg" width="150px" height="250px">
+            </a>
+            <a class="b1"align="center" href="pdf/The Adventures of Sherlock Holmes.pdf"><img class="img6" src="Images/Adventure sherlock.jpg" width="150px" height="250px">
+            </a>
+            <a class="b1"align="center" href="pdf/The-Making-of-a-Matchmaker.pdf"><img class="img7" src="Images/rom matchmaker.jpg" width="150px" height="250px">
+            </a>
+        </div>
+
+        <h2>Trending books</h2>
+        <div class="box">
+            <div class="t1">
+
+                <a href="pdf/Shadowland.pdf"><img class="img1" src="Images/fnst shadow.jpg"></a>
+                <a href="pdf/The-House-of-Souls.pdf"> <img class="img2" src="Images/horror soul.jpg"></a>
+                <a href="pdf/An-Antarctic-Mystery.pdf">  <img  class="img3" src="Images/Antrc myst.jpg"></a>
+                <a href="pdf/Adamant.pdf"> <img class="img4" src="Images/fnst Adamant.jpg"></a>
+                <a href="pdf/Nobody's-Boy.pdf">  <img class="img5"  src="Images/fic nobody.jpg"></a>
+
+            </div>
+        </div>
+        <h2>Mostly read books</h2>
+        <div class="box">
+            <div class="t1">
+                <a href="pdf/Ash---A-Thriller.pdf"><img class="img1" src="Images/thriller jason.jpg"></a>
+                <a href="pdf/The-Valley-of-Fear.pdf"><img class="img2" src="Images/the fear myst.jpg"></a>
+                <a href="pdf/Heir-To-Magic.pdf"><img class="img3" src="Images/fnst H magic.jpg"></a>
+                <a href="pdf/Whill-of-Agora-Book-1.pdf"> <img class="img4"  src="Images/fnst agora.jpg"></a>
+                <a href="pdf/Stuck-with-a-Billionaire.pdf"><img class="img5" src="Images/fnst billion.jpg"></a>
+            </div>
+        </div>
+        <h2>Latest books</h2>
+        <div class="box">
+            <div class="t1">
+                <a href="pdf/Dracula's-Guest.pdf"> <img  class="img1" src="Images/fnst blind.jpg"></a>
+                <a href="pdf/Bloodstone-.pdf"> <img class="img2" src="Images/fnst blood.jpg"></a>
+                <a href="pdf/Celestial-Magic.pdf"><img class="img3" src="Images/fnst clst.jpg"></a>
+                <a href="pdf/The-Corpse-That-Walked.pdf">  <img class="img4" src="Images/fnst corps.jpg"></a>
+                <a href="pdf/The-Lady-of-the-Shroud.pdf">  <img class="img5" src="Images/horror ladysh.jpg"></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="t1">
+                <a href="pdf/The-Time-Machine.pdf"><img  class="img1" src="Images/fnst time ma.jpg"><a/>
+                    <a href="pdf/macbarebook.pdf"><img class="img2" href="" src="Images/the fear myst.jpg"></a>
+                    <a href="pdf/A-Queen's-Spy.pdf"><img class="img3" src="Images/fic queen.jpg"></a>
+                    <a href="pdf/The-Ghost-Ship.pdf"> <img class="img4" src="Images/horror ship.jpg"></a>
+                    <a href="pdf/Kidnapped.pdf"> <img class="img5" src="Images/fic kidnap.jpg"></a>
+            </div>
+        </div>
+
+        
+        <section class="footer">
+            <nav>
+                <p>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Help.html">Help</a></li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+                </p>
+            </nav>
+        </section>
+    </body>
+</html>

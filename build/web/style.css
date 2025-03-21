@@ -1,0 +1,77 @@
+           body
+            {
+                background-repeat:no-repeat;
+                background-size:cover;
+            }
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            .header {
+                background-color:black;
+                color:#fff;
+                padding: 1em;
+                text-align:right;
+                position: sticky;
+                height: 66px;
+                box-shadow: rgba(0,0,0,0.15)1.95px 1.95px 2.6px;
+            }
+            nav ul {
+                list-style: none;
+                padding:0;
+                margin-top:25px;
+            }
+            .brand img{
+                width:50px;
+            }
+            .brand{
+                display:flex;
+                list-style: none;
+                font-weight: bolder;
+                font-size: 1.3rem;
+                margin-top: 5px;
+            }
+
+            nav li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+
+            nav a {
+                color: #fff;
+                text-decoration: none;
+            }
+            .footer
+            {
+                background-color:black;
+                color:#fff;
+                text-align: center;
+                padding:1em;
+                position:fixed;
+                width:100%;
+                bottom:0;
+            }
+
+                        
+            main h2{
+                    color:plum;
+                    font-family: italic;
+                    font-size:45px;
+                   text-align: center;
+                }
+                main h3{
+                    color:plum;
+                    font-family: italic;
+                    font-size:35px;
+                    text-align: center;
+                }
+                main h4{
+                    color:black;
+                    font-family: italic;
+                    font-size: 15px;
+                    
+                }
+
+

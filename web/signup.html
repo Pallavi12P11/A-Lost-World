@@ -1,0 +1,123 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-image: url("Images/magicbook9.webp");
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            header {
+                background-color:black;
+                color:#fff;
+                padding: 1em;
+                text-align:right;
+            }
+            h1{
+                color:black;
+                font-size:36px;
+            }
+            table{
+                margin-top:140px;
+            }
+            #d1
+            {
+                color:black;
+                font-size:24px;
+            }
+            #d2
+            {
+                border-radius:25px;
+                color:black;
+                font-size:20px;
+            }
+            #b1
+            {
+                margin-top:50px;
+                border-radius:45px;
+                color:black;
+                font-size:24px;
+            }
+            nav ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            .brand img{
+                width:60px;
+            }
+            .brand{
+                display:flex;
+                list-style: none;
+                font-weight: bolder;
+                font-size: 1.3rem;
+                margin-top: 5px;
+            }
+
+            nav li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+
+            nav a {
+                color: #fff;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+         
+        <header>
+            <nav>
+                <li class="brand">
+                    <img src="Images/wel logo.jpg">A Lost World            
+                </li>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Userlogin.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <form Action="Usersignup" method="post">
+            <table align="center">
+                <tr>
+                    <td id="d1">UserName</td>
+                    <td>
+                        <input type="text" name="t1" id="d2">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="d1">Email</td>
+                    <td>
+                        <input type="text" name="t2" id="d2">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="d1">Password</td>
+                    <td>
+                        <input type="password" name="t3" id="d2">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="d1">DOB</td>
+                    <td>
+                        <input type="date" name="t4" id="d2">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Sign Up" id="b1">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </body>
+</html>

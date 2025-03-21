@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Write your content here</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style>
+        body{
+    font-family: Arial,sans-serif;
+     background-image: url("Images/wel writeb.webp");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                overflow-y: auto;
+                height: 100vh;
+     }
+       .header {
+                    background-color: transparent;
+                    color:black;
+                    padding: 1em;
+                    text-align:right;
+                }
+
+                nav ul {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                }
+                .brand img{
+                    width:60px;
+                }
+                .brand{
+                    display:flex;
+                    list-style: none;
+                    font-weight: bolder;
+                    font-size: 1.3rem;
+                    margin-top: 5px;
+                }
+                nav li {
+                    display: inline-block;
+                    margin-right: 20px;
+                }
+
+                nav a {
+                    color: black;
+                    text-decoration: none;
+                }
+                  
+     .container
+     {
+    width:80%;
+    margin:40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   }
+#content
+{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size:16px;
+    border:1px solid #ccc;
+}
+#post-button:hover{
+    background-color: #3e8e41;
+}
+    </style>
+
+    </head>
+       <body>
+            <section class="header">
+            <nav>
+                    <li class="brand">
+                            <img src="Images/wel logo.jpg">A Lost World            
+                    </li>
+                     <ul> 
+                        <li><a href="Profile.html">Back</a></li>
+                        <li><a href="index.html">Logout</a></li>
+                        </ul>
+                </nav>
+        </section>
+           <form action="Write" method="post">
+            <div class="container">
+        <h1>Content Writing Box</h1>
+        <textarea name="cnt" id="content" placeholder="Write your content here..."></textarea>
+        <input type="submit" value="Post" name="p1">
+            </div>
+               </form>
+          
+        
+    </body>
+</html>
